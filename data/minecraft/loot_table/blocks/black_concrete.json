@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.black_concrete_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.black_concrete_fragment",
+          "fallback" : "黒色のコンクリートの破片"
         }
       } ]
     } ],

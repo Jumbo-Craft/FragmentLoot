@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.pale_oak_log_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.pale_oak_log_fragment",
+          "fallback" : "ペールオークの原木の破片"
         }
       } ]
     } ],

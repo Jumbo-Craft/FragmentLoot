@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.stripped_birch_log_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.stripped_birch_log_fragment",
+          "fallback" : "樹皮を剥いだシラカバの原木の破片"
         }
       } ]
     } ],

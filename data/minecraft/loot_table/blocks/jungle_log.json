@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.jungle_log_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.jungle_log_fragment",
+          "fallback" : "ジャングルの原木の破片"
         }
       } ]
     } ],

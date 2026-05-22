@@ -28,8 +28,9 @@
         }, {
           "function" : "minecraft:set_name",
           "name" : {
-            "translate" : "item.jumbo_craft.brown_mushroom_block_fragment",
-            "italic" : false
+            "italic" : false,
+            "translate" : "block.jumbo_craft.brown_mushroom_block_fragment",
+            "fallback" : "茶色のキノコブロックの破片"
           }
         } ]
       }, {
@@ -57,7 +58,6 @@
         }, {
           "function" : "minecraft:set_name",
           "name" : {
-            "translate" : "item.jumbo_craft.brown_mushroom_fragment",
             "italic" : false
           }
         } ] ],

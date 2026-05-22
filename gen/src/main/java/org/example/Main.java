@@ -12,8 +12,20 @@ import java.util.List;
 //TIP コードを<b>実行</b>するには、<shortcut actionId="Run"/> を押すか
 // ガターの <icon src="AllIcons.Actions.Execute"/> アイコンをクリックします。
 public class Main {
+
+    static SimpleJson lang;
+    static SimpleJson json;
+
+    static {
+        try {
+            lang = new SimpleJson(new File("./input/ja_jp.json"));
+            json = new SimpleJson(new File("./input/fragment_block.json"));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
     static void main() throws IOException {
-        SimpleJson json = new SimpleJson(new File("./fragment_block.json"));
         Object[] fragBlocks = json.getList("blocks").toArray();
 
         for (Object block : fragBlocks) {
@@ -66,11 +78,15 @@ public class Main {
         return jsonEntries;
     }
 
-    static List<JsonNode> getInfoJson(String blockName) throws IOException {
+    static List<JsonNode> getInfoJson(String itemName) throws IOException {
         SimpleJson template1 = new SimpleJson("{\"function\": \"minecraft:set_custom_data\",\"tag\":{\"fragment\": true}}");
-        SimpleJson template2 = new SimpleJson("{\"function\": \"minecraft:set_name\",\"name\": {\"translate\": \"\",\"italic\": false}}");
+        SimpleJson template2 = new SimpleJson("{\"function\": \"minecraft:set_name\",\"name\": {\"italic\": false}}");
 
-        template2.put("name.translate", "item.jumbo_craft." + blockName + "_fragment");
+        JsonNode fallback = lang.getNode("block/jumbo_craft/" + itemName + "_fragment");
+        if (fallback != null) {
+            template2.put("name.translate", "block.jumbo_craft." + itemName + "_fragment");
+            template2.put("name.fallback", fallback.toString().replace("\"", ""));
+        }
 
         return Arrays.asList(template1.toJsonNode(), template2.toJsonNode());
     }

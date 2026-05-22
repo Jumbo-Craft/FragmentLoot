@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.calcite_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.calcite_fragment",
+          "fallback" : "方解石の破片"
         }
       } ]
     } ],

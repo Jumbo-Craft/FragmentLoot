@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.green_concrete_powder_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.green_concrete_powder_fragment",
+          "fallback" : "緑色のコンクリートパウダーの破片"
         }
       } ]
     } ],

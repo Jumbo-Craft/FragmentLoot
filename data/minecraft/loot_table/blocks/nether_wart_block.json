@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.nether_wart_block_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.nether_wart_block_fragment",
+          "fallback" : "ネザーウォートブロックの破片"
         }
       } ]
     } ],

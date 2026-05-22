@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.spruce_planks_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.spruce_planks_fragment",
+          "fallback" : "トウヒの板材の破片"
         }
       } ]
     } ],

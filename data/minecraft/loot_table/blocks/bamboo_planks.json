@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.bamboo_planks_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.bamboo_planks_fragment",
+          "fallback" : "竹の板材の破片"
         }
       } ]
     } ],

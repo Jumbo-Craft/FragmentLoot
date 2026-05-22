@@ -32,7 +32,6 @@
           }, {
             "function" : "minecraft:set_name",
             "name" : {
-              "translate" : "item.jumbo_craft.snowball_fragment",
               "italic" : false
             }
           } ] ],
@@ -58,7 +57,6 @@
           }, {
             "function" : "minecraft:set_name",
             "name" : {
-              "translate" : "item.jumbo_craft.snowball_fragment",
               "italic" : false
             }
           } ] ],
@@ -84,7 +82,6 @@
           }, {
             "function" : "minecraft:set_name",
             "name" : {
-              "translate" : "item.jumbo_craft.snowball_fragment",
               "italic" : false
             }
           } ] ],
@@ -110,7 +107,6 @@
           }, {
             "function" : "minecraft:set_name",
             "name" : {
-              "translate" : "item.jumbo_craft.snowball_fragment",
               "italic" : false
             }
           } ] ],
@@ -136,7 +132,6 @@
           }, {
             "function" : "minecraft:set_name",
             "name" : {
-              "translate" : "item.jumbo_craft.snowball_fragment",
               "italic" : false
             }
           } ] ],
@@ -162,7 +157,6 @@
           }, {
             "function" : "minecraft:set_name",
             "name" : {
-              "translate" : "item.jumbo_craft.snowball_fragment",
               "italic" : false
             }
           } ] ],
@@ -188,7 +182,6 @@
           }, {
             "function" : "minecraft:set_name",
             "name" : {
-              "translate" : "item.jumbo_craft.snowball_fragment",
               "italic" : false
             }
           } ] ],
@@ -214,7 +207,6 @@
           }, {
             "function" : "minecraft:set_name",
             "name" : {
-              "translate" : "item.jumbo_craft.snowball_fragment",
               "italic" : false
             }
           } ] ],
@@ -259,8 +251,9 @@
           }, {
             "function" : "minecraft:set_name",
             "name" : {
-              "translate" : "item.jumbo_craft.snow_fragment",
-              "italic" : false
+              "italic" : false,
+              "translate" : "block.jumbo_craft.snow_fragment",
+              "fallback" : "雪の破片"
             }
           } ] ],
           "name" : "minecraft:snow"
@@ -285,8 +278,9 @@
           }, {
             "function" : "minecraft:set_name",
             "name" : {
-              "translate" : "item.jumbo_craft.snow_fragment",
-              "italic" : false
+              "italic" : false,
+              "translate" : "block.jumbo_craft.snow_fragment",
+              "fallback" : "雪の破片"
             }
           } ] ],
           "name" : "minecraft:snow"
@@ -311,8 +305,9 @@
           }, {
             "function" : "minecraft:set_name",
             "name" : {
-              "translate" : "item.jumbo_craft.snow_fragment",
-              "italic" : false
+              "italic" : false,
+              "translate" : "block.jumbo_craft.snow_fragment",
+              "fallback" : "雪の破片"
             }
           } ] ],
           "name" : "minecraft:snow"
@@ -337,8 +332,9 @@
           }, {
             "function" : "minecraft:set_name",
             "name" : {
-              "translate" : "item.jumbo_craft.snow_fragment",
-              "italic" : false
+              "italic" : false,
+              "translate" : "block.jumbo_craft.snow_fragment",
+              "fallback" : "雪の破片"
             }
           } ] ],
           "name" : "minecraft:snow"
@@ -363,8 +359,9 @@
           }, {
             "function" : "minecraft:set_name",
             "name" : {
-              "translate" : "item.jumbo_craft.snow_fragment",
-              "italic" : false
+              "italic" : false,
+              "translate" : "block.jumbo_craft.snow_fragment",
+              "fallback" : "雪の破片"
             }
           } ] ],
           "name" : "minecraft:snow"
@@ -389,8 +386,9 @@
           }, {
             "function" : "minecraft:set_name",
             "name" : {
-              "translate" : "item.jumbo_craft.snow_fragment",
-              "italic" : false
+              "italic" : false,
+              "translate" : "block.jumbo_craft.snow_fragment",
+              "fallback" : "雪の破片"
             }
           } ] ],
           "name" : "minecraft:snow"
@@ -415,8 +413,9 @@
           }, {
             "function" : "minecraft:set_name",
             "name" : {
-              "translate" : "item.jumbo_craft.snow_fragment",
-              "italic" : false
+              "italic" : false,
+              "translate" : "block.jumbo_craft.snow_fragment",
+              "fallback" : "雪の破片"
             }
           } ] ],
           "name" : "minecraft:snow"
@@ -431,7 +430,6 @@
           }, {
             "function" : "minecraft:set_name",
             "name" : {
-              "translate" : "item.jumbo_craft.snow_block_fragment",
               "italic" : false
             }
           } ]

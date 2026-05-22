@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.deepslate_tiles_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.deepslate_tiles_fragment",
+          "fallback" : "深層岩タイルの破片"
         }
       } ]
     } ],

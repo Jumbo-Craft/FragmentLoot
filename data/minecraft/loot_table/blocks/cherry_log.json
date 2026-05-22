@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.cherry_log_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.cherry_log_fragment",
+          "fallback" : "サクラの原木の破片"
         }
       } ]
     } ],

@@ -28,8 +28,9 @@
         }, {
           "function" : "minecraft:set_name",
           "name" : {
-            "translate" : "item.jumbo_craft.gravel_fragment",
-            "italic" : false
+            "italic" : false,
+            "translate" : "block.jumbo_craft.gravel_fragment",
+            "fallback" : "砂利の破片"
           }
         } ]
       }, {
@@ -50,7 +51,6 @@
           }, {
             "function" : "minecraft:set_name",
             "name" : {
-              "translate" : "item.jumbo_craft.flint_fragment",
               "italic" : false
             }
           } ]
@@ -65,8 +65,9 @@
           }, {
             "function" : "minecraft:set_name",
             "name" : {
-              "translate" : "item.jumbo_craft.gravel_fragment",
-              "italic" : false
+              "italic" : false,
+              "translate" : "block.jumbo_craft.gravel_fragment",
+              "fallback" : "砂利の破片"
             }
           } ]
         } ],

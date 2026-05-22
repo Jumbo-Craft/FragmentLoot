@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.smooth_red_sandstone_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.smooth_red_sandstone_fragment",
+          "fallback" : "滑らかな赤い砂岩の破片"
         }
       } ]
     } ],

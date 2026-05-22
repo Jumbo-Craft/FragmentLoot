@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.oxidized_copper_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.oxidized_copper_fragment",
+          "fallback" : "酸化した銅の破片"
         }
       } ]
     } ],

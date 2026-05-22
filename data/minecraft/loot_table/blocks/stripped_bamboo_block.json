@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.stripped_bamboo_block_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.stripped_bamboo_block_fragment",
+          "fallback" : "表皮を剥いだ竹ブロックの破片"
         }
       } ]
     } ],

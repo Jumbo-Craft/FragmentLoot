@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.coarse_dirt_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.coarse_dirt_fragment",
+          "fallback" : "粗い土の破片"
         }
       } ]
     } ],

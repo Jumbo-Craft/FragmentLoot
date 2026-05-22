@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.diamond_block_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.diamond_block_fragment",
+          "fallback" : "ダイヤモンドブロックの破片"
         }
       } ]
     } ],

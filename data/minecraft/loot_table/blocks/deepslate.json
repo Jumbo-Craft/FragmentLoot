@@ -28,8 +28,9 @@
         }, {
           "function" : "minecraft:set_name",
           "name" : {
-            "translate" : "item.jumbo_craft.deepslate_fragment",
-            "italic" : false
+            "italic" : false,
+            "translate" : "block.jumbo_craft.deepslate_fragment",
+            "fallback" : "深層岩の破片"
           }
         } ]
       }, {
@@ -46,8 +47,9 @@
         }, {
           "function" : "minecraft:set_name",
           "name" : {
-            "translate" : "item.jumbo_craft.cobbled_deepslate_fragment",
-            "italic" : false
+            "italic" : false,
+            "translate" : "block.jumbo_craft.cobbled_deepslate_fragment",
+            "fallback" : "深層岩の丸石の破片"
           }
         } ]
       } ]

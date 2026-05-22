@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.resin_bricks_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.resin_bricks_fragment",
+          "fallback" : "樹脂レンガの破片"
         }
       } ]
     } ],

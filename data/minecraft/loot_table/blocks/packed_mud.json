@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.packed_mud_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.packed_mud_fragment",
+          "fallback" : "固めた泥の破片"
         }
       } ]
     } ],

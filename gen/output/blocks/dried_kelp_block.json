@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.dried_kelp_block_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.dried_kelp_block_fragment",
+          "fallback" : "乾燥した昆布ブロックの破片"
         }
       } ]
     } ],

@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.smooth_basalt_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.smooth_basalt_fragment",
+          "fallback" : "滑らかな玄武岩の破片"
         }
       } ]
     } ],

@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.soul_soil_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.soul_soil_fragment",
+          "fallback" : "ソウルソイルの破片"
         }
       } ]
     } ],

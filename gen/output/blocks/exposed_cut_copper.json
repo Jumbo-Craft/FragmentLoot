@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.exposed_cut_copper_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.exposed_cut_copper_fragment",
+          "fallback" : "風化した切り込み入りの銅の破片"
         }
       } ]
     } ],

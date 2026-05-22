@@ -26,8 +26,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.mushroom_stem_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.mushroom_stem_fragment",
+          "fallback" : "キノコの柄の破片"
         }
       } ]
     } ],

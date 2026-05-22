@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.bamboo_block_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.bamboo_block_fragment",
+          "fallback" : "竹ブロックの破片"
         }
       } ]
     } ],

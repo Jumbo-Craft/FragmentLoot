@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.light_blue_terracotta_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.light_blue_terracotta_fragment",
+          "fallback" : "空色のテラコッタの破片"
         }
       } ]
     } ],

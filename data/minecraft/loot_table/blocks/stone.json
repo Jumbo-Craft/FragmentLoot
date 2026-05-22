@@ -28,8 +28,9 @@
         }, {
           "function" : "minecraft:set_name",
           "name" : {
-            "translate" : "item.jumbo_craft.stone_fragment",
-            "italic" : false
+            "italic" : false,
+            "translate" : "block.jumbo_craft.stone_fragment",
+            "fallback" : "石の破片"
           }
         } ]
       }, {
@@ -46,8 +47,9 @@
         }, {
           "function" : "minecraft:set_name",
           "name" : {
-            "translate" : "item.jumbo_craft.cobblestone_fragment",
-            "italic" : false
+            "italic" : false,
+            "translate" : "block.jumbo_craft.cobblestone_fragment",
+            "fallback" : "丸石の破片"
           }
         } ]
       } ]

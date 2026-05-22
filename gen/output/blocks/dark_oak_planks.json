@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.dark_oak_planks_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.dark_oak_planks_fragment",
+          "fallback" : "ダークオークの板材の破片"
         }
       } ]
     } ],

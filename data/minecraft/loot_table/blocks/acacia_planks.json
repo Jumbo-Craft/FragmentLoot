@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.acacia_planks_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.acacia_planks_fragment",
+          "fallback" : "アカシアの板材の破片"
         }
       } ]
     } ],

@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.orange_concrete_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.orange_concrete_fragment",
+          "fallback" : "橙色のコンクリートの破片"
         }
       } ]
     } ],

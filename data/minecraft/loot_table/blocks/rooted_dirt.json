@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.rooted_dirt_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.rooted_dirt_fragment",
+          "fallback" : "根付いた土の破片"
         }
       } ]
     } ],

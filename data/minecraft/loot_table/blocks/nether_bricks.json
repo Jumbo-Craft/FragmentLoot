@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.nether_bricks_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.nether_bricks_fragment",
+          "fallback" : "ネザーレンガの破片"
         }
       } ]
     } ],

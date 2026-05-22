@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.polished_granite_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.polished_granite_fragment",
+          "fallback" : "磨かれた花崗岩の破片"
         }
       } ]
     } ],

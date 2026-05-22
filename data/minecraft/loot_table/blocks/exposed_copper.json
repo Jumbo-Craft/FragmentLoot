@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.exposed_copper_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.exposed_copper_fragment",
+          "fallback" : "風化した銅の破片"
         }
       } ]
     } ],

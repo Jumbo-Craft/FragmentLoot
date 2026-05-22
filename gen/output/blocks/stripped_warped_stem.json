@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.stripped_warped_stem_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.stripped_warped_stem_fragment",
+          "fallback" : "表皮を剥いだ歪んだ幹の破片"
         }
       } ]
     } ],

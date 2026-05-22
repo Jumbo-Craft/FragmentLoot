@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.honeycomb_block_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.honeycomb_block_fragment",
+          "fallback" : "ハニカムブロックの破片"
         }
       } ]
     } ],

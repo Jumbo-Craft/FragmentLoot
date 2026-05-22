@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.warped_planks_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.warped_planks_fragment",
+          "fallback" : "歪んだ板材の破片"
         }
       } ]
     } ],

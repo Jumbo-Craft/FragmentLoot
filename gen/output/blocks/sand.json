@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.sand_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.sand_fragment",
+          "fallback" : "砂の破片"
         }
       } ]
     } ],

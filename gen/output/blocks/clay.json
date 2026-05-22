@@ -28,8 +28,9 @@
         }, {
           "function" : "minecraft:set_name",
           "name" : {
-            "translate" : "item.jumbo_craft.clay_fragment",
-            "italic" : false
+            "italic" : false,
+            "translate" : "block.jumbo_craft.clay_fragment",
+            "fallback" : "粘土の破片"
           }
         } ]
       }, {
@@ -48,7 +49,6 @@
         }, {
           "function" : "minecraft:set_name",
           "name" : {
-            "translate" : "item.jumbo_craft.clay_ball_fragment",
             "italic" : false
           }
         } ] ],

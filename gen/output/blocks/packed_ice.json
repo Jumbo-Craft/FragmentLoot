@@ -26,8 +26,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.packed_ice_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.packed_ice_fragment",
+          "fallback" : "氷塊の破片"
         }
       } ]
     } ],

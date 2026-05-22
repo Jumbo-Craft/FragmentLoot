@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.cut_sandstone_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.cut_sandstone_fragment",
+          "fallback" : "研がれた砂岩の破片"
         }
       } ]
     } ],

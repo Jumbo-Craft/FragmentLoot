@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.obsidian_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.obsidian_fragment",
+          "fallback" : "黒曜石の破片"
         }
       } ]
     } ],

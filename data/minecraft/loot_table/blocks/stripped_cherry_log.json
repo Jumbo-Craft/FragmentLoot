@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.stripped_cherry_log_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.stripped_cherry_log_fragment",
+          "fallback" : "樹皮を剥いだサクラの原木の破片"
         }
       } ]
     } ],

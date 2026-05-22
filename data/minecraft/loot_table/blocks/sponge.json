@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.sponge_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.sponge_fragment",
+          "fallback" : "スポンジの破片"
         }
       } ]
     } ],

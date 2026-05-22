@@ -16,8 +16,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.dead_brain_coral_block_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.dead_brain_coral_block_fragment",
+          "fallback" : "死んだノウサンゴブロックの破片"
         }
       } ]
     } ],

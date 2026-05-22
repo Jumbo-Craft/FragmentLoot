@@ -28,8 +28,9 @@
       }, {
         "function" : "minecraft:set_name",
         "name" : {
-          "translate" : "item.jumbo_craft.oak_log_fragment",
-          "italic" : false
+          "italic" : false,
+          "translate" : "block.jumbo_craft.oak_log_fragment",
+          "fallback" : "オークの原木の破片"
         }
       } ] ]
     } ],
