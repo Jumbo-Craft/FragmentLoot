@@ -63,7 +63,14 @@ def get_info(item_name):
         else { 'italic': False }
     }
 
-    return template1, template2
+    template3 = {
+        'function': 'minecraft:set_components',
+        'components': {
+            'minecraft:enchantment_glint_override': True
+        }
+    }
+
+    return template1, template2, template3
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':

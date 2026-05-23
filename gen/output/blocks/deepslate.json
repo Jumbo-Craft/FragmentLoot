@@ -37,6 +37,12 @@
                                         "italic": false,
                                         "translate": "block.jumbo_craft.deepslate_fragment"
                                     }
+                                },
+                                {
+                                    "components": {
+                                        "minecraft:enchantment_glint_override": true
+                                    },
+                                    "function": "minecraft:set_components"
                                 }
                             ],
                             "name": "minecraft:deepslate",
@@ -62,6 +68,12 @@
                                         "italic": false,
                                         "translate": "block.jumbo_craft.cobbled_deepslate_fragment"
                                     }
+                                },
+                                {
+                                    "components": {
+                                        "minecraft:enchantment_glint_override": true
+                                    },
+                                    "function": "minecraft:set_components"
                                 }
                             ],
                             "name": "minecraft:cobbled_deepslate",

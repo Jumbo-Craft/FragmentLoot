@@ -36,6 +36,12 @@
                                             "name": {
                                                 "italic": false
                                             }
+                                        },
+                                        {
+                                            "components": {
+                                                "minecraft:enchantment_glint_override": true
+                                            },
+                                            "function": "minecraft:set_components"
                                         }
                                     ],
                                     "name": "minecraft:snowball",
@@ -63,6 +69,12 @@
                                             "name": {
                                                 "italic": false
                                             }
+                                        },
+                                        {
+                                            "components": {
+                                                "minecraft:enchantment_glint_override": true
+                                            },
+                                            "function": "minecraft:set_components"
                                         }
                                     ],
                                     "name": "minecraft:snowball",
@@ -90,6 +102,12 @@
                                             "name": {
                                                 "italic": false
                                             }
+                                        },
+                                        {
+                                            "components": {
+                                                "minecraft:enchantment_glint_override": true
+                                            },
+                                            "function": "minecraft:set_components"
                                         }
                                     ],
                                     "name": "minecraft:snowball",
@@ -117,6 +135,12 @@
                                             "name": {
                                                 "italic": false
                                             }
+                                        },
+                                        {
+                                            "components": {
+                                                "minecraft:enchantment_glint_override": true
+                                            },
+                                            "function": "minecraft:set_components"
                                         }
                                     ],
                                     "name": "minecraft:snowball",
@@ -144,6 +168,12 @@
                                             "name": {
                                                 "italic": false
                                             }
+                                        },
+                                        {
+                                            "components": {
+                                                "minecraft:enchantment_glint_override": true
+                                            },
+                                            "function": "minecraft:set_components"
                                         }
                                     ],
                                     "name": "minecraft:snowball",
@@ -171,6 +201,12 @@
                                             "name": {
                                                 "italic": false
                                             }
+                                        },
+                                        {
+                                            "components": {
+                                                "minecraft:enchantment_glint_override": true
+                                            },
+                                            "function": "minecraft:set_components"
                                         }
                                     ],
                                     "name": "minecraft:snowball",
@@ -198,6 +234,12 @@
                                             "name": {
                                                 "italic": false
                                             }
+                                        },
+                                        {
+                                            "components": {
+                                                "minecraft:enchantment_glint_override": true
+                                            },
+                                            "function": "minecraft:set_components"
                                         }
                                     ],
                                     "name": "minecraft:snowball",
@@ -225,6 +267,12 @@
                                             "name": {
                                                 "italic": false
                                             }
+                                        },
+                                        {
+                                            "components": {
+                                                "minecraft:enchantment_glint_override": true
+                                            },
+                                            "function": "minecraft:set_components"
                                         }
                                     ],
                                     "name": "minecraft:snowball",
@@ -279,6 +327,12 @@
                                                 "italic": false,
                                                 "translate": "block.jumbo_craft.snow_fragment"
                                             }
+                                        },
+                                        {
+                                            "components": {
+                                                "minecraft:enchantment_glint_override": true
+                                            },
+                                            "function": "minecraft:set_components"
                                         }
                                     ],
                                     "name": "minecraft:snow",
@@ -308,6 +362,12 @@
                                                 "italic": false,
                                                 "translate": "block.jumbo_craft.snow_fragment"
                                             }
+                                        },
+                                        {
+                                            "components": {
+                                                "minecraft:enchantment_glint_override": true
+                                            },
+                                            "function": "minecraft:set_components"
                                         }
                                     ],
                                     "name": "minecraft:snow",
@@ -337,6 +397,12 @@
                                                 "italic": false,
                                                 "translate": "block.jumbo_craft.snow_fragment"
                                             }
+                                        },
+                                        {
+                                            "components": {
+                                                "minecraft:enchantment_glint_override": true
+                                            },
+                                            "function": "minecraft:set_components"
                                         }
                                     ],
                                     "name": "minecraft:snow",
@@ -366,6 +432,12 @@
                                                 "italic": false,
                                                 "translate": "block.jumbo_craft.snow_fragment"
                                             }
+                                        },
+                                        {
+                                            "components": {
+                                                "minecraft:enchantment_glint_override": true
+                                            },
+                                            "function": "minecraft:set_components"
                                         }
                                     ],
                                     "name": "minecraft:snow",
@@ -395,6 +467,12 @@
                                                 "italic": false,
                                                 "translate": "block.jumbo_craft.snow_fragment"
                                             }
+                                        },
+                                        {
+                                            "components": {
+                                                "minecraft:enchantment_glint_override": true
+                                            },
+                                            "function": "minecraft:set_components"
                                         }
                                     ],
                                     "name": "minecraft:snow",
@@ -424,6 +502,12 @@
                                                 "italic": false,
                                                 "translate": "block.jumbo_craft.snow_fragment"
                                             }
+                                        },
+                                        {
+                                            "components": {
+                                                "minecraft:enchantment_glint_override": true
+                                            },
+                                            "function": "minecraft:set_components"
                                         }
                                     ],
                                     "name": "minecraft:snow",
@@ -453,6 +537,12 @@
                                                 "italic": false,
                                                 "translate": "block.jumbo_craft.snow_fragment"
                                             }
+                                        },
+                                        {
+                                            "components": {
+                                                "minecraft:enchantment_glint_override": true
+                                            },
+                                            "function": "minecraft:set_components"
                                         }
                                     ],
                                     "name": "minecraft:snow",
@@ -471,6 +561,12 @@
                                             "name": {
                                                 "italic": false
                                             }
+                                        },
+                                        {
+                                            "components": {
+                                                "minecraft:enchantment_glint_override": true
+                                            },
+                                            "function": "minecraft:set_components"
                                         }
                                     ],
                                     "name": "minecraft:snow_block",

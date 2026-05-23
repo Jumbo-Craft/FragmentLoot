@@ -23,6 +23,12 @@
                                 "italic": false,
                                 "translate": "block.jumbo_craft.oxidized_cut_copper_fragment"
                             }
+                        },
+                        {
+                            "components": {
+                                "minecraft:enchantment_glint_override": true
+                            },
+                            "function": "minecraft:set_components"
                         }
                     ],
                     "name": "minecraft:oxidized_cut_copper",

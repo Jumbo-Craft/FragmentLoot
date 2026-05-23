@@ -1,401 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7020be93-15ed-4512-891a-69bf79dad5d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/acacia_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/acacia_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/acacia_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/acacia_planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/amethyst_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/amethyst_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/andesite.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/andesite.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/bamboo_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/bamboo_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/bamboo_mosaic.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/bamboo_mosaic.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/bamboo_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/bamboo_planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/birch_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/birch_planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/black_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/black_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/black_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/black_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/black_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/black_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/black_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/black_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/blackstone.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/blackstone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/blue_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/blue_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/blue_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/blue_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/blue_ice.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/blue_ice.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/blue_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/blue_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/blue_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/blue_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/bricks.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/bricks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/brown_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/brown_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/brown_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/brown_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/brown_mushroom_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/brown_mushroom_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/brown_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/brown_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/brown_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/brown_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/calcite.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/calcite.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/cherry_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/cherry_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/cherry_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/cherry_planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/chiseled_resin_bricks.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/chiseled_resin_bricks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/clay.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/clay.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/coal_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/coal_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/coarse_dirt.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/coarse_dirt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/cobbled_deepslate.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/cobbled_deepslate.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/cobblestone.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/cobblestone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/copper_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/copper_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/cracked_deepslate_tiles.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/cracked_deepslate_tiles.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/cracked_nether_bricks.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/cracked_nether_bricks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/crimson_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/crimson_planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/crimson_stem.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/crimson_stem.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/cut_copper.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/cut_copper.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/cut_red_sandstone.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/cut_red_sandstone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/cut_sandstone.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/cut_sandstone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/cyan_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/cyan_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/cyan_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/cyan_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/cyan_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/cyan_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/cyan_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/cyan_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/dark_oak_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/dark_oak_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/dark_oak_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/dark_oak_planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/dark_prismarine.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/dark_prismarine.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/dead_brain_coral_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/dead_brain_coral_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/dead_bubble_coral_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/dead_bubble_coral_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/dead_fire_coral_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/dead_fire_coral_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/dead_horn_coral_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/dead_horn_coral_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/dead_tube_coral_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/dead_tube_coral_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/deepslate.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/deepslate.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/deepslate_tiles.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/deepslate_tiles.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/diamond_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/diamond_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/diorite.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/diorite.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/dirt.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/dirt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/dried_kelp_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/dried_kelp_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/dripstone_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/dripstone_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/emerald_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/emerald_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/end_stone.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/end_stone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/end_stone_bricks.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/end_stone_bricks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/exposed_copper.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/exposed_copper.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/exposed_cut_copper.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/exposed_cut_copper.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/gold_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/gold_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/granite.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/granite.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/gravel.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/gravel.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/gray_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/gray_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/gray_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/gray_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/gray_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/gray_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/gray_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/gray_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/green_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/green_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/green_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/green_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/green_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/green_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/green_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/green_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/honeycomb_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/honeycomb_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/iron_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/iron_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/jungle_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/jungle_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/lapis_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/lapis_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/light_blue_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/light_blue_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/light_blue_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/light_blue_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/light_blue_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/light_blue_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/light_blue_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/light_blue_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/light_gray_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/light_gray_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/light_gray_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/light_gray_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/light_gray_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/light_gray_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/light_gray_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/light_gray_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/lime_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/lime_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/lime_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/lime_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/lime_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/lime_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/lime_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/lime_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/magenta_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/magenta_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/magenta_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/magenta_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/magenta_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/magenta_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/magenta_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/magenta_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/mangrove_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/mangrove_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/mangrove_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/mangrove_planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/moss_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/moss_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/mud.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/mud.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/mushroom_stem.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/mushroom_stem.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/nether_bricks.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/nether_bricks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/nether_wart_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/nether_wart_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/netherite_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/netherite_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/netherrack.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/netherrack.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/oak_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/oak_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/oak_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/oak_planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/obsidian.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/obsidian.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/orange_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/orange_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/orange_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/orange_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/orange_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/orange_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/orange_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/orange_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/oxidized_copper.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/oxidized_copper.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/oxidized_cut_copper.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/oxidized_cut_copper.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/packed_ice.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/packed_ice.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/packed_mud.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/packed_mud.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/pale_moss_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/pale_moss_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/pale_oak_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/pale_oak_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/pale_oak_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/pale_oak_planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/pink_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/pink_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/pink_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/pink_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/pink_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/pink_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/pink_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/pink_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/polished_andesite.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/polished_andesite.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/polished_blackstone_bricks.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/polished_blackstone_bricks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/polished_deepslate.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/polished_deepslate.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/polished_diorite.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/polished_diorite.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/polished_granite.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/polished_granite.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/polished_tuff.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/polished_tuff.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/prismarine.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/prismarine.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/prismarine_bricks.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/prismarine_bricks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/purple_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/purple_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/purple_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/purple_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/purple_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/purple_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/purple_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/purple_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/purpur_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/purpur_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/quartz_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/quartz_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/raw_gold_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/raw_gold_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/raw_iron_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/raw_iron_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/red_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/red_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/red_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/red_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/red_nether_bricks.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/red_nether_bricks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/red_sand.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/red_sand.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/red_sandstone.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/red_sandstone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/red_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/red_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/red_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/red_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/redstone_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/redstone_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/resin_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/resin_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/resin_bricks.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/resin_bricks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/rooted_dirt.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/rooted_dirt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/sand.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/sand.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/sandstone.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/sandstone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/sculk.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/sculk.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/smooth_basalt.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/smooth_basalt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/smooth_quartz.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/smooth_quartz.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/smooth_red_sandstone.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/smooth_red_sandstone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/smooth_sandstone.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/smooth_sandstone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/smooth_stone.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/smooth_stone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/snow.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/snow.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/soul_sand.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/soul_sand.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/soul_soil.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/soul_soil.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/sponge.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/sponge.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/spruce_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/spruce_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/spruce_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/spruce_planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/stone.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/stone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/stripped_acacia_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/stripped_acacia_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/stripped_bamboo_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/stripped_bamboo_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/stripped_birch_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/stripped_birch_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/stripped_cherry_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/stripped_cherry_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/stripped_crimson_stem.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/stripped_crimson_stem.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/stripped_dark_oak_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/stripped_dark_oak_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/stripped_jungle_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/stripped_jungle_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/stripped_mangrove_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/stripped_mangrove_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/stripped_oak_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/stripped_oak_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/stripped_pale_oak_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/stripped_pale_oak_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/stripped_spruce_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/stripped_spruce_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/stripped_warped_stem.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/stripped_warped_stem.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/tuff.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/tuff.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/warped_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/warped_planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/warped_stem.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/warped_stem.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/warped_wart_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/warped_wart_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/weathered_copper.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/weathered_copper.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/weathered_cut_copper.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/weathered_cut_copper.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/white_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/white_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/white_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/white_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/white_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/white_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/white_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/white_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/yellow_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/yellow_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/yellow_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/yellow_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/yellow_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/yellow_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/yellow_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minecraft/loot_table/blocks/yellow_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/ja_jp.json" beforeDir="false" afterPath="$PROJECT_DIR$/input/ja_jp.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/acacia_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/acacia_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/acacia_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/acacia_planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/amethyst_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/amethyst_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/andesite.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/andesite.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/bamboo_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/bamboo_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/bamboo_mosaic.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/bamboo_mosaic.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/bamboo_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/bamboo_planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/birch_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/birch_planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/black_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/black_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/black_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/black_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/black_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/black_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/black_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/black_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/blackstone.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/blackstone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/blue_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/blue_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/blue_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/blue_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/blue_ice.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/blue_ice.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/blue_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/blue_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/blue_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/blue_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/bricks.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/bricks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/brown_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/brown_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/brown_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/brown_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/brown_mushroom_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/brown_mushroom_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/brown_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/brown_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/brown_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/brown_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/calcite.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/calcite.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/cherry_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/cherry_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/cherry_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/cherry_planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/chiseled_resin_bricks.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/chiseled_resin_bricks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/clay.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/clay.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/coal_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/coal_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/coarse_dirt.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/coarse_dirt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/cobbled_deepslate.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/cobbled_deepslate.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/cobblestone.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/cobblestone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/copper_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/copper_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/cracked_deepslate_tiles.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/cracked_deepslate_tiles.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/cracked_nether_bricks.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/cracked_nether_bricks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/crimson_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/crimson_planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/crimson_stem.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/crimson_stem.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/cut_copper.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/cut_copper.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/cut_red_sandstone.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/cut_red_sandstone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/cut_sandstone.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/cut_sandstone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/cyan_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/cyan_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/cyan_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/cyan_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/cyan_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/cyan_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/cyan_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/cyan_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/dark_oak_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/dark_oak_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/dark_oak_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/dark_oak_planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/dark_prismarine.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/dark_prismarine.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/dead_brain_coral_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/dead_brain_coral_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/dead_bubble_coral_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/dead_bubble_coral_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/dead_fire_coral_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/dead_fire_coral_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/dead_horn_coral_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/dead_horn_coral_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/dead_tube_coral_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/dead_tube_coral_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/deepslate.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/deepslate.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/deepslate_tiles.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/deepslate_tiles.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/diamond_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/diamond_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/diorite.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/diorite.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/dirt.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/dirt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/dried_kelp_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/dried_kelp_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/dripstone_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/dripstone_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/emerald_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/emerald_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/end_stone.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/end_stone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/end_stone_bricks.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/end_stone_bricks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/exposed_copper.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/exposed_copper.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/exposed_cut_copper.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/exposed_cut_copper.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/gold_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/gold_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/granite.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/granite.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/gravel.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/gravel.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/gray_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/gray_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/gray_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/gray_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/gray_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/gray_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/gray_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/gray_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/green_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/green_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/green_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/green_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/green_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/green_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/green_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/green_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/honeycomb_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/honeycomb_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/iron_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/iron_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/jungle_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/jungle_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/lapis_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/lapis_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/light_blue_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/light_blue_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/light_blue_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/light_blue_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/light_blue_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/light_blue_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/light_blue_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/light_blue_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/light_gray_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/light_gray_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/light_gray_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/light_gray_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/light_gray_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/light_gray_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/light_gray_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/light_gray_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/lime_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/lime_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/lime_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/lime_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/lime_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/lime_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/lime_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/lime_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/magenta_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/magenta_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/magenta_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/magenta_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/magenta_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/magenta_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/magenta_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/magenta_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/mangrove_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/mangrove_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/mangrove_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/mangrove_planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/moss_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/moss_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/mud.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/mud.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/mushroom_stem.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/mushroom_stem.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/nether_bricks.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/nether_bricks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/nether_wart_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/nether_wart_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/netherite_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/netherite_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/netherrack.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/netherrack.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/oak_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/oak_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/oak_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/oak_planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/obsidian.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/obsidian.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/orange_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/orange_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/orange_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/orange_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/orange_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/orange_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/orange_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/orange_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/oxidized_copper.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/oxidized_copper.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/oxidized_cut_copper.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/oxidized_cut_copper.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/packed_ice.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/packed_ice.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/packed_mud.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/packed_mud.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/pale_moss_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/pale_moss_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/pale_oak_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/pale_oak_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/pale_oak_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/pale_oak_planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/pink_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/pink_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/pink_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/pink_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/pink_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/pink_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/pink_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/pink_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/polished_andesite.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/polished_andesite.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/polished_blackstone_bricks.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/polished_blackstone_bricks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/polished_deepslate.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/polished_deepslate.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/polished_diorite.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/polished_diorite.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/polished_granite.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/polished_granite.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/polished_tuff.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/polished_tuff.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/prismarine.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/prismarine.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/prismarine_bricks.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/prismarine_bricks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/purple_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/purple_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/purple_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/purple_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/purple_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/purple_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/purple_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/purple_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/purpur_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/purpur_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/quartz_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/quartz_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/raw_gold_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/raw_gold_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/raw_iron_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/raw_iron_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/red_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/red_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/red_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/red_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/red_nether_bricks.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/red_nether_bricks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/red_sand.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/red_sand.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/red_sandstone.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/red_sandstone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/red_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/red_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/red_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/red_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/redstone_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/redstone_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/resin_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/resin_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/resin_bricks.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/resin_bricks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/rooted_dirt.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/rooted_dirt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/sand.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/sand.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/sandstone.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/sandstone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/sculk.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/sculk.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/smooth_basalt.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/smooth_basalt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/smooth_quartz.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/smooth_quartz.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/smooth_red_sandstone.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/smooth_red_sandstone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/smooth_sandstone.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/smooth_sandstone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/smooth_stone.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/smooth_stone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/snow.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/snow.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/soul_sand.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/soul_sand.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/soul_soil.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/soul_soil.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/sponge.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/sponge.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/spruce_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/spruce_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/spruce_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/spruce_planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/stone.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/stone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/stripped_acacia_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/stripped_acacia_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/stripped_bamboo_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/stripped_bamboo_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/stripped_birch_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/stripped_birch_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/stripped_cherry_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/stripped_cherry_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/stripped_crimson_stem.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/stripped_crimson_stem.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/stripped_dark_oak_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/stripped_dark_oak_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/stripped_jungle_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/stripped_jungle_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/stripped_mangrove_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/stripped_mangrove_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/stripped_oak_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/stripped_oak_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/stripped_pale_oak_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/stripped_pale_oak_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/stripped_spruce_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/stripped_spruce_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/stripped_warped_stem.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/stripped_warped_stem.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/tuff.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/tuff.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/warped_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/warped_planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/warped_stem.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/warped_stem.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/warped_wart_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/warped_wart_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/weathered_copper.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/weathered_copper.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/weathered_cut_copper.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/weathered_cut_copper.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/white_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/white_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/white_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/white_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/white_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/white_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/white_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/white_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/yellow_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/yellow_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/yellow_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/yellow_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/yellow_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/yellow_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blocks/yellow_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/blocks/yellow_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-    </list>
+    <list default="true" id="7020be93-15ed-4512-891a-69bf79dad5d3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -404,9 +10,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "hojitaro"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Jumbo-Craft/FragmentLoot.git",
+    "accountId": "82fb2305-5553-4090-8785-951aac2d0c08"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="3E7Z02ySmuiLzZ94fd724CuiO59" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -424,13 +42,14 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-c59985aa861c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.24374.152" />
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.32098.37" />
       </set>
     </attachedChunks>
   </component>

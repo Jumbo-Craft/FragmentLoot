@@ -37,6 +37,12 @@
                                         "italic": false,
                                         "translate": "block.jumbo_craft.clay_fragment"
                                     }
+                                },
+                                {
+                                    "components": {
+                                        "minecraft:enchantment_glint_override": true
+                                    },
+                                    "function": "minecraft:set_components"
                                 }
                             ],
                             "name": "minecraft:clay",
@@ -55,6 +61,12 @@
                                     "name": {
                                         "italic": false
                                     }
+                                },
+                                {
+                                    "components": {
+                                        "minecraft:enchantment_glint_override": true
+                                    },
+                                    "function": "minecraft:set_components"
                                 }
                             ],
                             "name": "minecraft:clay_ball",

@@ -23,6 +23,12 @@
                                 "italic": false,
                                 "translate": "block.jumbo_craft.crimson_planks_fragment"
                             }
+                        },
+                        {
+                            "components": {
+                                "minecraft:enchantment_glint_override": true
+                            },
+                            "function": "minecraft:set_components"
                         }
                     ],
                     "name": "minecraft:crimson_planks",

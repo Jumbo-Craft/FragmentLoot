@@ -23,6 +23,12 @@
                                 "italic": false,
                                 "translate": "block.jumbo_craft.stripped_acacia_log_fragment"
                             }
+                        },
+                        {
+                            "components": {
+                                "minecraft:enchantment_glint_override": true
+                            },
+                            "function": "minecraft:set_components"
                         }
                     ],
                     "name": "minecraft:stripped_acacia_log",

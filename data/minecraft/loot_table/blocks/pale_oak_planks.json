@@ -23,6 +23,12 @@
                                 "italic": false,
                                 "translate": "block.jumbo_craft.pale_oak_planks_fragment"
                             }
+                        },
+                        {
+                            "components": {
+                                "minecraft:enchantment_glint_override": true
+                            },
+                            "function": "minecraft:set_components"
                         }
                     ],
                     "name": "minecraft:pale_oak_planks",

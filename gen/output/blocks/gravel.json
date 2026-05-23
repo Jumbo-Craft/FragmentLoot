@@ -37,6 +37,12 @@
                                         "italic": false,
                                         "translate": "block.jumbo_craft.gravel_fragment"
                                     }
+                                },
+                                {
+                                    "components": {
+                                        "minecraft:enchantment_glint_override": true
+                                    },
+                                    "function": "minecraft:set_components"
                                 }
                             ],
                             "name": "minecraft:gravel",
@@ -69,6 +75,12 @@
                                             "name": {
                                                 "italic": false
                                             }
+                                        },
+                                        {
+                                            "components": {
+                                                "minecraft:enchantment_glint_override": true
+                                            },
+                                            "function": "minecraft:set_components"
                                         }
                                     ],
                                     "name": "minecraft:flint",
@@ -89,6 +101,12 @@
                                                 "italic": false,
                                                 "translate": "block.jumbo_craft.gravel_fragment"
                                             }
+                                        },
+                                        {
+                                            "components": {
+                                                "minecraft:enchantment_glint_override": true
+                                            },
+                                            "function": "minecraft:set_components"
                                         }
                                     ],
                                     "name": "minecraft:gravel",
