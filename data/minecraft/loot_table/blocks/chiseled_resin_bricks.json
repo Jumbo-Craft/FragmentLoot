@@ -1,28 +1,37 @@
 {
-  "type" : "minecraft:block",
-  "pools" : [ {
-    "bonus_rolls" : 0.0,
-    "conditions" : [ {
-      "condition" : "minecraft:survives_explosion"
-    } ],
-    "entries" : [ {
-      "type" : "minecraft:item",
-      "name" : "minecraft:chiseled_resin_bricks",
-      "functions" : [ {
-        "function" : "minecraft:set_custom_data",
-        "tag" : {
-          "fragment" : true
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
+                }
+            ],
+            "entries": [
+                {
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": {
+                                "fragment": true
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "fallback": "模様入りの樹脂レンガの破片",
+                                "italic": false,
+                                "translate": "block.jumbo_craft.chiseled_resin_bricks_fragment"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:chiseled_resin_bricks",
+                    "type": "minecraft:item"
+                }
+            ],
+            "rolls": 1.0
         }
-      }, {
-        "function" : "minecraft:set_name",
-        "name" : {
-          "italic" : false,
-          "translate" : "block.jumbo_craft.chiseled_resin_bricks_fragment",
-          "fallback" : "模様入りの樹脂レンガの破片"
-        }
-      } ]
-    } ],
-    "rolls" : 1.0
-  } ],
-  "random_sequence" : "minecraft:blocks/chiseled_resin_bricks"
+    ],
+    "random_sequence": "minecraft:blocks/chiseled_resin_bricks",
+    "type": "minecraft:block"
 }

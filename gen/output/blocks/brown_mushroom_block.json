@@ -1,70 +1,72 @@
 {
-  "type" : "minecraft:block",
-  "pools" : [ {
-    "bonus_rolls" : 0.0,
-    "entries" : [ {
-      "type" : "minecraft:alternatives",
-      "children" : [ {
-        "type" : "minecraft:item",
-        "conditions" : [ {
-          "condition" : "minecraft:match_tool",
-          "predicate" : {
-            "predicates" : {
-              "minecraft:enchantments" : [ {
-                "enchantments" : "minecraft:silk_touch",
-                "levels" : {
-                  "min" : 1
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "children": [
+                        {
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:match_tool",
+                                    "predicate": {
+                                        "predicates": {
+                                            "minecraft:enchantments": [
+                                                {
+                                                    "enchantments": "minecraft:silk_touch",
+                                                    "levels": {
+                                                        "min": 1
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ],
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_custom_data",
+                                    "tag": {
+                                        "fragment": true
+                                    }
+                                },
+                                {
+                                    "function": "minecraft:set_name",
+                                    "name": {
+                                        "fallback": "茶色のキノコブロックの破片",
+                                        "italic": false,
+                                        "translate": "block.jumbo_craft.brown_mushroom_block_fragment"
+                                    }
+                                }
+                            ],
+                            "name": "minecraft:brown_mushroom_block",
+                            "type": "minecraft:item"
+                        },
+                        {
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_custom_data",
+                                    "tag": {
+                                        "fragment": true
+                                    }
+                                },
+                                {
+                                    "function": "minecraft:set_name",
+                                    "name": {
+                                        "italic": false
+                                    }
+                                }
+                            ],
+                            "name": "minecraft:brown_mushroom",
+                            "type": "minecraft:item"
+                        }
+                    ],
+                    "type": "minecraft:alternatives"
                 }
-              } ]
-            }
-          }
-        } ],
-        "name" : "minecraft:brown_mushroom_block",
-        "functions" : [ {
-          "function" : "minecraft:set_custom_data",
-          "tag" : {
-            "fragment" : true
-          }
-        }, {
-          "function" : "minecraft:set_name",
-          "name" : {
-            "italic" : false,
-            "translate" : "block.jumbo_craft.brown_mushroom_block_fragment",
-            "fallback" : "茶色のキノコブロックの破片"
-          }
-        } ]
-      }, {
-        "type" : "minecraft:item",
-        "functions" : [ {
-          "add" : false,
-          "count" : {
-            "type" : "minecraft:uniform",
-            "max" : 2.0,
-            "min" : -6.0
-          },
-          "function" : "minecraft:set_count"
-        }, {
-          "function" : "minecraft:limit_count",
-          "limit" : {
-            "min" : 0.0
-          }
-        }, {
-          "function" : "minecraft:explosion_decay"
-        }, [ {
-          "function" : "minecraft:set_custom_data",
-          "tag" : {
-            "fragment" : true
-          }
-        }, {
-          "function" : "minecraft:set_name",
-          "name" : {
-            "italic" : false
-          }
-        } ] ],
-        "name" : "minecraft:brown_mushroom"
-      } ]
-    } ],
-    "rolls" : 1.0
-  } ],
-  "random_sequence" : "minecraft:blocks/brown_mushroom_block"
+            ],
+            "rolls": 1.0
+        }
+    ],
+    "random_sequence": "minecraft:blocks/brown_mushroom_block",
+    "type": "minecraft:block"
 }

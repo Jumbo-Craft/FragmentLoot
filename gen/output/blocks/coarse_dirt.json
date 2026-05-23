@@ -1,28 +1,37 @@
 {
-  "type" : "minecraft:block",
-  "pools" : [ {
-    "bonus_rolls" : 0.0,
-    "conditions" : [ {
-      "condition" : "minecraft:survives_explosion"
-    } ],
-    "entries" : [ {
-      "type" : "minecraft:item",
-      "name" : "minecraft:coarse_dirt",
-      "functions" : [ {
-        "function" : "minecraft:set_custom_data",
-        "tag" : {
-          "fragment" : true
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
+                }
+            ],
+            "entries": [
+                {
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": {
+                                "fragment": true
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "fallback": "粗い土の破片",
+                                "italic": false,
+                                "translate": "block.jumbo_craft.coarse_dirt_fragment"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:coarse_dirt",
+                    "type": "minecraft:item"
+                }
+            ],
+            "rolls": 1.0
         }
-      }, {
-        "function" : "minecraft:set_name",
-        "name" : {
-          "italic" : false,
-          "translate" : "block.jumbo_craft.coarse_dirt_fragment",
-          "fallback" : "粗い土の破片"
-        }
-      } ]
-    } ],
-    "rolls" : 1.0
-  } ],
-  "random_sequence" : "minecraft:blocks/coarse_dirt"
+    ],
+    "random_sequence": "minecraft:blocks/coarse_dirt",
+    "type": "minecraft:block"
 }

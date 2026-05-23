@@ -1,28 +1,37 @@
 {
-  "type" : "minecraft:block",
-  "pools" : [ {
-    "bonus_rolls" : 0.0,
-    "conditions" : [ {
-      "condition" : "minecraft:survives_explosion"
-    } ],
-    "entries" : [ {
-      "type" : "minecraft:item",
-      "name" : "minecraft:crimson_stem",
-      "functions" : [ {
-        "function" : "minecraft:set_custom_data",
-        "tag" : {
-          "fragment" : true
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
+                }
+            ],
+            "entries": [
+                {
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": {
+                                "fragment": true
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "fallback": "真紅の幹の破片",
+                                "italic": false,
+                                "translate": "block.jumbo_craft.crimson_stem_fragment"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:crimson_stem",
+                    "type": "minecraft:item"
+                }
+            ],
+            "rolls": 1.0
         }
-      }, {
-        "function" : "minecraft:set_name",
-        "name" : {
-          "italic" : false,
-          "translate" : "block.jumbo_craft.crimson_stem_fragment",
-          "fallback" : "真紅の幹の破片"
-        }
-      } ]
-    } ],
-    "rolls" : 1.0
-  } ],
-  "random_sequence" : "minecraft:blocks/crimson_stem"
+    ],
+    "random_sequence": "minecraft:blocks/crimson_stem",
+    "type": "minecraft:block"
 }

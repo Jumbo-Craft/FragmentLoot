@@ -1,28 +1,37 @@
 {
-  "type" : "minecraft:block",
-  "pools" : [ {
-    "bonus_rolls" : 0.0,
-    "conditions" : [ {
-      "condition" : "minecraft:survives_explosion"
-    } ],
-    "entries" : [ {
-      "type" : "minecraft:item",
-      "name" : "minecraft:cracked_deepslate_tiles",
-      "functions" : [ {
-        "function" : "minecraft:set_custom_data",
-        "tag" : {
-          "fragment" : true
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
+                }
+            ],
+            "entries": [
+                {
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": {
+                                "fragment": true
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "fallback": "ひび割れた深層岩タイルの破片",
+                                "italic": false,
+                                "translate": "block.jumbo_craft.cracked_deepslate_tiles_fragment"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:cracked_deepslate_tiles",
+                    "type": "minecraft:item"
+                }
+            ],
+            "rolls": 1.0
         }
-      }, {
-        "function" : "minecraft:set_name",
-        "name" : {
-          "italic" : false,
-          "translate" : "block.jumbo_craft.cracked_deepslate_tiles_fragment",
-          "fallback" : "ひび割れた深層岩タイルの破片"
-        }
-      } ]
-    } ],
-    "rolls" : 1.0
-  } ],
-  "random_sequence" : "minecraft:blocks/cracked_deepslate_tiles"
+    ],
+    "random_sequence": "minecraft:blocks/cracked_deepslate_tiles",
+    "type": "minecraft:block"
 }

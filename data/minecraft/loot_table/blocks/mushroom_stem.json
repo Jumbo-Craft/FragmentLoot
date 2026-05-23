@@ -1,38 +1,49 @@
 {
-  "type" : "minecraft:block",
-  "pools" : [ {
-    "bonus_rolls" : 0.0,
-    "conditions" : [ {
-      "condition" : "minecraft:match_tool",
-      "predicate" : {
-        "predicates" : {
-          "minecraft:enchantments" : [ {
-            "enchantments" : "minecraft:silk_touch",
-            "levels" : {
-              "min" : 1
-            }
-          } ]
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                        "predicates": {
+                            "minecraft:enchantments": [
+                                {
+                                    "enchantments": "minecraft:silk_touch",
+                                    "levels": {
+                                        "min": 1
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                {
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": {
+                                "fragment": true
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "fallback": "キノコの柄の破片",
+                                "italic": false,
+                                "translate": "block.jumbo_craft.mushroom_stem_fragment"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:mushroom_stem",
+                    "type": "minecraft:item"
+                }
+            ],
+            "rolls": 1.0
         }
-      }
-    } ],
-    "entries" : [ {
-      "type" : "minecraft:item",
-      "name" : "minecraft:mushroom_stem",
-      "functions" : [ {
-        "function" : "minecraft:set_custom_data",
-        "tag" : {
-          "fragment" : true
-        }
-      }, {
-        "function" : "minecraft:set_name",
-        "name" : {
-          "italic" : false,
-          "translate" : "block.jumbo_craft.mushroom_stem_fragment",
-          "fallback" : "キノコの柄の破片"
-        }
-      } ]
-    } ],
-    "rolls" : 1.0
-  } ],
-  "random_sequence" : "minecraft:blocks/mushroom_stem"
+    ],
+    "random_sequence": "minecraft:blocks/mushroom_stem",
+    "type": "minecraft:block"
 }

@@ -1,28 +1,37 @@
 {
-  "type" : "minecraft:block",
-  "pools" : [ {
-    "bonus_rolls" : 0.0,
-    "conditions" : [ {
-      "condition" : "minecraft:survives_explosion"
-    } ],
-    "entries" : [ {
-      "type" : "minecraft:item",
-      "name" : "minecraft:stripped_warped_stem",
-      "functions" : [ {
-        "function" : "minecraft:set_custom_data",
-        "tag" : {
-          "fragment" : true
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
+                }
+            ],
+            "entries": [
+                {
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": {
+                                "fragment": true
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "fallback": "表皮を剥いだ歪んだ幹の破片",
+                                "italic": false,
+                                "translate": "block.jumbo_craft.stripped_warped_stem_fragment"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:stripped_warped_stem",
+                    "type": "minecraft:item"
+                }
+            ],
+            "rolls": 1.0
         }
-      }, {
-        "function" : "minecraft:set_name",
-        "name" : {
-          "italic" : false,
-          "translate" : "block.jumbo_craft.stripped_warped_stem_fragment",
-          "fallback" : "表皮を剥いだ歪んだ幹の破片"
-        }
-      } ]
-    } ],
-    "rolls" : 1.0
-  } ],
-  "random_sequence" : "minecraft:blocks/stripped_warped_stem"
+    ],
+    "random_sequence": "minecraft:blocks/stripped_warped_stem",
+    "type": "minecraft:block"
 }

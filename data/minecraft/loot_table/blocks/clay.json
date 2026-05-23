@@ -1,61 +1,72 @@
 {
-  "type" : "minecraft:block",
-  "pools" : [ {
-    "bonus_rolls" : 0.0,
-    "entries" : [ {
-      "type" : "minecraft:alternatives",
-      "children" : [ {
-        "type" : "minecraft:item",
-        "conditions" : [ {
-          "condition" : "minecraft:match_tool",
-          "predicate" : {
-            "predicates" : {
-              "minecraft:enchantments" : [ {
-                "enchantments" : "minecraft:silk_touch",
-                "levels" : {
-                  "min" : 1
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "children": [
+                        {
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:match_tool",
+                                    "predicate": {
+                                        "predicates": {
+                                            "minecraft:enchantments": [
+                                                {
+                                                    "enchantments": "minecraft:silk_touch",
+                                                    "levels": {
+                                                        "min": 1
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ],
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_custom_data",
+                                    "tag": {
+                                        "fragment": true
+                                    }
+                                },
+                                {
+                                    "function": "minecraft:set_name",
+                                    "name": {
+                                        "fallback": "粘土の破片",
+                                        "italic": false,
+                                        "translate": "block.jumbo_craft.clay_fragment"
+                                    }
+                                }
+                            ],
+                            "name": "minecraft:clay",
+                            "type": "minecraft:item"
+                        },
+                        {
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_custom_data",
+                                    "tag": {
+                                        "fragment": true
+                                    }
+                                },
+                                {
+                                    "function": "minecraft:set_name",
+                                    "name": {
+                                        "italic": false
+                                    }
+                                }
+                            ],
+                            "name": "minecraft:clay_ball",
+                            "type": "minecraft:item"
+                        }
+                    ],
+                    "type": "minecraft:alternatives"
                 }
-              } ]
-            }
-          }
-        } ],
-        "name" : "minecraft:clay",
-        "functions" : [ {
-          "function" : "minecraft:set_custom_data",
-          "tag" : {
-            "fragment" : true
-          }
-        }, {
-          "function" : "minecraft:set_name",
-          "name" : {
-            "italic" : false,
-            "translate" : "block.jumbo_craft.clay_fragment",
-            "fallback" : "粘土の破片"
-          }
-        } ]
-      }, {
-        "type" : "minecraft:item",
-        "functions" : [ {
-          "add" : false,
-          "count" : 4.0,
-          "function" : "minecraft:set_count"
-        }, {
-          "function" : "minecraft:explosion_decay"
-        }, [ {
-          "function" : "minecraft:set_custom_data",
-          "tag" : {
-            "fragment" : true
-          }
-        }, {
-          "function" : "minecraft:set_name",
-          "name" : {
-            "italic" : false
-          }
-        } ] ],
-        "name" : "minecraft:clay_ball"
-      } ]
-    } ],
-    "rolls" : 1.0
-  } ],
-  "random_sequence" : "minecraft:blocks/clay"
+            ],
+            "rolls": 1.0
+        }
+    ],
+    "random_sequence": "minecraft:blocks/clay",
+    "type": "minecraft:block"
 }

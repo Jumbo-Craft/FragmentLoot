@@ -1,38 +1,49 @@
 {
-  "type" : "minecraft:block",
-  "pools" : [ {
-    "bonus_rolls" : 0.0,
-    "conditions" : [ {
-      "condition" : "minecraft:match_tool",
-      "predicate" : {
-        "predicates" : {
-          "minecraft:enchantments" : [ {
-            "enchantments" : "minecraft:silk_touch",
-            "levels" : {
-              "min" : 1
-            }
-          } ]
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                        "predicates": {
+                            "minecraft:enchantments": [
+                                {
+                                    "enchantments": "minecraft:silk_touch",
+                                    "levels": {
+                                        "min": 1
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                {
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": {
+                                "fragment": true
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "fallback": "氷塊の破片",
+                                "italic": false,
+                                "translate": "block.jumbo_craft.packed_ice_fragment"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:packed_ice",
+                    "type": "minecraft:item"
+                }
+            ],
+            "rolls": 1.0
         }
-      }
-    } ],
-    "entries" : [ {
-      "type" : "minecraft:item",
-      "name" : "minecraft:packed_ice",
-      "functions" : [ {
-        "function" : "minecraft:set_custom_data",
-        "tag" : {
-          "fragment" : true
-        }
-      }, {
-        "function" : "minecraft:set_name",
-        "name" : {
-          "italic" : false,
-          "translate" : "block.jumbo_craft.packed_ice_fragment",
-          "fallback" : "氷塊の破片"
-        }
-      } ]
-    } ],
-    "rolls" : 1.0
-  } ],
-  "random_sequence" : "minecraft:blocks/packed_ice"
+    ],
+    "random_sequence": "minecraft:blocks/packed_ice",
+    "type": "minecraft:block"
 }
